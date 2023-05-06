@@ -1,33 +1,327 @@
-<!doctype html>
-<html lang=en>
-  <head>
-    <meta charset=utf-8>
-    <title>Cyclic: Hello World</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <link rel="icon" href="/favicon.ico" />
-  </head>
-  <body>
-    <div id="hello-wrapper">
-      <div id="particles-js"></div>
-      <div class="content position-absolute w-100 top-0 pt-5">
-        <div class="cta">
-          <div id="hello" class="typewriter pb-3">
-            Hello World!
-          </div>
-          <a class="btn btn-primary mb-5" href="//app.cyclic.sh/api/login">Sign in to Cyclic</a>
-        </div>
-        <div id="world">
-          <canvas id='rotatingGlobe' style='cursor: move;'></canvas>
-        </div>
-      </div>
+<!DOCTYPE html>
+<html>
+<head>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8338090925906121"
+     crossorigin="anonymous"></script>
+	  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQ9SRHW5LS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BQ9SRHW5LS');
+</script>
+	<title>The CB-Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>The CB-Project</h1>
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Search...">
     </div>
-    <script type='text/javascript' src='//d3js.org/d3.v3.min.js'></script>
-    <script type='text/javascript' src='//d3js.org/topojson.v1.min.js'></script>
-    <script type='text/javascript' src='planetaryjs.min.js'></script>
-    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script type='text/javascript' src='particles.js'></script>
-    <script type='text/javascript' src='globe.js'></script>
-  </body>
+<br>
+		<div class="game-list">
+
+      
+  <div class="game-item">
+      <a href="./games/2048">
+          <div class="game-icon" style="background-image: url('games/thumbnails/2048.jpg');">              </div>
+          <div class="game-title">2048</div>
+      </a>
+  </div>
+  <div class="game-item">
+  <a href="./games/adr">
+    <div class="game-icon" style="background-image: url('games/thumbnails/adr.jpg');"></div>
+    <div class="game-title">A Dark Room</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/ChromeDino">
+    <div class="game-icon" style="background-image: url('games/thumbnails/chromedino.gif');"></div>
+    <div class="game-title">Chrome Dino</div>
+  </a>
+</div>
+
+<!--
+<div class="game-item">
+  <a href="./games/Cookie">
+    <div class="game-icon" style="background-image: url('games/thumbnails/cookie.png');"></div>
+    <div class="game-title">Cookie Clicker</div>
+  </a>
+</div>
+-->
+
+<div class="game-item">
+  <a href="./games/ctr">
+    <div class="game-icon" style="background-image: url('games/thumbnails/ctr.jpg');"></div>
+    <div class="game-title">Cut The Rope</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/ctrholiday">
+    <div class="game-icon" style="background-image: url('games/thumbnails/ctrholiday.jpg');"></div>
+    <div class="game-title">Cut The Rope Holiday</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/ctrtr">
+    <div class="game-icon" style="background-image: url('games/thumbnails/ctrtr.jpg');"></div>
+    <div class="game-title">Cut The Rope Time Travel</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/doodle">
+    <div class="game-icon" style="background-image: url('games/thumbnails/doodle.jpg');"></div>
+    <div class="game-title">Doodle Jump</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/duck-life-4/duck-life-4.html">
+    <div class="game-icon" style="background-image: url('games/thumbnails/ducklife4.jpg');"></div>
+    <div class="game-title">Duck Life 4</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/firewater2">
+    <div class="game-icon" style="background-image: url('games/thumbnails/firewater2.jpg');"></div>
+    <div class="game-title">Fire Boy Water Girl 2</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/firewater3">
+    <div class="game-icon" style="background-image: url('games/thumbnails/firewater3.jpg');"></div>
+    <div class="game-title">Fire Boy Water Girl 3</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/firewater4">
+    <div class="game-icon" style="background-image: url('games/thumbnails/firewater4.jpg');"></div>
+    <div class="game-title">Fire Boy Water Girl 4</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/fnaf">
+    <div class="game-icon" style="background-image: url('games/thumbnails/fnaf.jpg');"></div>
+    <div class="game-title">FNAF</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/fnaf2">
+      <div class="game-icon" style="background-image: url('games/thumbnails/fnaf2.jpg');"></div>
+      <div class="game-title">FNAF 2</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/geometry">
+      <div class="game-icon" style="background-image: url('games/thumbnails/geometry.jpg');"></div>
+      <div class="game-title">Geometry Dash</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/hsm/hsm.html">
+      <div class="game-icon" style="background-image: url('games/thumbnails/hsm.jpg');"></div>
+      <div class="game-title">Henry Stickmin</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/hsm/hsm2.html">
+      <div class="game-icon" style="background-image: url('games/thumbnails/hsm2.jpg');"></div>
+      <div class="game-title">Henry Stickmin 2</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/hsm/hsm3.html">
+      <div class="game-icon" style="background-image: url('games/thumbnails/hsm3.jpg');"></div>
+      <div class="game-title">Henry Stickmin 3</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/hsm/hsm4.html">
+      <div class="game-icon" style="background-image: url('games/thumbnails/hsm4.jpg');"></div>
+      <div class="game-title">Henry Stickmin 4</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/hsm/hsm5.html">
+      <div class="game-icon" style="background-image: url('games/thumbnails/hsm5.jpg');"></div>
+      <div class="game-title">Henry Stickmin 5</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/papapizza/papapizza.html">
+      <div class="game-icon" style="background-image: url('games/thumbnails/papapizza.jpg');"></div>
+      <div class="game-title">Papa Pizzaria</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/paper">
+      <div class="game-icon" style="background-image: url('games/thumbnails/paper.jpg');"></div>
+      <div class="game-title">Paper.io 2</div>
+  </a>
+</div>
+
+
+
+<div class="game-item">
+  <a href="ruffle/swf/rs/rd1.html">
+    <div class="game-icon" style="background-image: url('games/thumbnails/rd1.jpg');"></div>
+    <div class="game-title">Riddle School</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/rs/rd2.html">
+    <div class="game-icon" style="background-image: url('games/thumbnails/rd2.jpg');"></div>
+    <div class="game-title">Riddle School 2</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/rs/rd3.html">
+    <div class="game-icon" style="background-image: url('games/thumbnails/rd3.jpg');"></div>
+    <div class="game-title">Riddle School 3</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/rs/rd4.html">
+    <div class="game-icon" style="background-image: url('games/thumbnails/rd4.jpg');"></div>
+    <div class="game-title">Riddle School 4</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/rs/rd5.html">
+    <div class="game-icon" style="background-image: url('games/thumbnails/rd5.jpg');"></div>
+    <div class="game-title">Riddle School 5</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/rs/rt1.html">
+    <div class="game-icon" style="background-image: url('games/thumbnails/rt1.jpg');"></div>
+    <div class="game-title">Riddle Transfer</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="ruffle/swf/rs/rt2.html">
+    <div class="game-icon" style="background-image: url('games/thumbnails/rt2.jpg');"></div>
+    <div class="game-title">Riddle Transfer 2</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/temple">
+    <div class="game-icon" style="background-image: url('games/thumbnails/temple.jpg');"></div>
+    <div class="game-title">Temple Run</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/ting">
+    <div class="game-icon" style="background-image: url('games/thumbnails/ting.jpg');"></div>
+    <div class="game-title">There Is No Game</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/vex3">
+    <div class="game-icon" style="background-image: url('games/thumbnails/vex3.jpg');"></div>
+    <div class="game-title">Vex 3</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/vex4">
+    <div class="game-icon" style="background-image: url('games/thumbnails/vex4.jpg');"></div>
+    <div class="game-title">Vex 4</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/vex5">
+    <div class="game-icon" style="background-image: url('games/thumbnails/vex5.jpg');"></div>
+    <div class="game-title">Vex 5</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/whg">
+    <div class="game-icon" style="background-image: url('games/thumbnails/whg.jpg');"></div>
+    <div class="game-title">World's Hardest Game</div>
+  </a>
+</div>
+
+<div class="game-item">
+  <a href="./games/drift-boss">
+    <div class="game-icon" style="background-image: url('games/thumbnails/drift-boss.jpg');"></div>
+    <div class="game-title">Drift Boss</div>
+  </a>
+</div>
+      
+
+<div class="game-item">
+  <a href="./games/idle-breakout">
+    <div class="game-icon" style="background-image: url('games/thumbnails/idle-breakout.jpg');"></div>
+    <div class="game-title">Idle Breakout</div>
+  </a>
+</div>
+      
+		</div>
+
+    
+    <script>
+      // Select the search input and game list
+const searchInput = document.querySelector('#search-input');
+const gameList = document.querySelector('.game-list');
+
+// Add an event listener to the search input
+searchInput.addEventListener('input', () => {
+  // Get the search query and convert to lowercase
+  const searchQuery = searchInput.value.toLowerCase();
+
+  // Get all game items
+  const gameItems = gameList.querySelectorAll('.game-item');
+
+  // Loop through each game item
+  gameItems.forEach((gameItem) => {
+    // Get the game title
+    const gameTitle = gameItem.querySelector('.game-title').textContent.toLowerCase();
+
+    // Check if the game title contains the search query
+    if (gameTitle.includes(searchQuery)) {
+      // If the game title matches, display the game item
+      gameItem.style.display = 'block';
+    } else {
+      // If the game title does not match, hide the game item
+      gameItem.style.display = 'none';
+    }
+  });
+});
+    </script>
+
+    
+	</div>
+</body>
 </html>
